@@ -2,3 +2,5 @@
 
 
 Yatırım tavsiyesi değildir tercihlerinizi kendiniz yapınız  ❗
+
+   t.me/coinbuysbot
