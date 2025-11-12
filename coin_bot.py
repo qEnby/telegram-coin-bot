@@ -1,6 +1,8 @@
+from keep_alive
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import requests
+import keep_alive
 import matplotlib.pyplot as plt
 import datetime
 import io
@@ -203,6 +205,7 @@ async def main():
     await app.run_polling()
 
 # --- Başlat ---
-if __name__ == "__main__":
+if __name__ == "__main__": keep_alive(); ...
     nest_asyncio.apply()
     asyncio.run(main())
+
