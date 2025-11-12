@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: telegram-coin-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python coin_bot.py"
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
