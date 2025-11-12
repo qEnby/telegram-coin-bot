@@ -11,7 +11,7 @@ import asyncio
 import numpy as np
 
 # --- Sabitler ---
-BOT_TOKEN = "7684671214:AAFBDb6VmeEun8MvJkuKzVXACeBe5GoA3jo"
+BOT_TOKEN = "KENDİ TOKENİNİZ"
 
 SYMBOL_TO_ID = {
     "btc": "bitcoin", "eth": "ethereum", "doge": "dogecoin", "sol": "solana",
@@ -208,4 +208,5 @@ async def main():
 if __name__ == "__main__": keep_alive(); ...
     nest_asyncio.apply()
     asyncio.run(main())
+
 
